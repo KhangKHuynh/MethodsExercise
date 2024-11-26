@@ -35,10 +35,22 @@
         {
             return numOne / numTwo;
         }
+
         static void Main(string[] args)
         {
             MadLib();
-            
+
+
+            int sum = Add(1, 1);
+            int sub = Subtract(1, 1);
+            int mult = Multiply(sum, sub);
+            int div = Divide(100, 10);
+
+            Console.WriteLine(sum);
+            Console.WriteLine(sub);
+            Console.WriteLine(mult);
+            Console.WriteLine(div);
+                
         }
     }
 }
